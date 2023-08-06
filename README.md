@@ -52,7 +52,7 @@ terraform destroy -auto-approve
 ```
 
 
-## Prodaction application schema
+## Production application schema
 I have designed a production environment schema with certain limitations. It consists of one region and is divided into three availability zones to enhance reliability and fault tolerance. However, it's essential to consider the specific requirements of each customer. If needed, we can extend this setup to include additional regions for increased redundancy and better load balancing using Route 53
 
 ![production schema](prod_infra.drawio.png "production schema")
